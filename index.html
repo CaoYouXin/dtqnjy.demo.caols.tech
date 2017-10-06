@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>大同清鸟教育Demo</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="page one"></div>
+  <div class="banner one">教学环境</div>
+  <div class="logo one">Logo</div>
+  <div class="page two"></div>
+  <div class="banner two">学历教育</div>
+  <div class="logo two">Logo</div>
+  <div class="page three"></div>
+
+  <script src="./tweenjs.min.js"></script>
+  <script>
+    var logos = document.querySelectorAll('.logo');
+    function loop() {
+      for (var i = 0; i < logos.length; i++) {
+        var logosHeight = 0;
+        for (var j = 0; j < i; j++) {
+          logosHeight += logos[j].offsetHeight;
+        }
+        var low = window.innerHeight * (0.5 + i) + logosHeight;
+        var high = window.innerHeight * (1 + i) + logosHeight;
+
+        if (window.scrollY < low) {
+          logos[i].style.top = 'calc(' + (i + 1) + '00% + ' + logosHeight + 'px + ' + (0 * logos[i].offsetHeight) + 'px)';
+        } else if (window.scrollY > high) {
+          logos[i].style.top = 'calc(' + (i + 1) + '00% + ' + logosHeight + 'px + ' + (1 * logos[i].offsetHeight) + 'px)';
+        } else {
+          var percent = (window.scrollY - low) / (high - low);
+          logos[i].style.top = 'calc(' + (i + 1) + '00% + ' + logosHeight + 'px + ' + (percent * logos[i].offsetHeight) + 'px)';
+        }
+      }
+
+      requestAnimationFrame(loop);
+    }
+
+    requestAnimationFrame(loop);
+
+    var moving = false, cur = Number(localStorage.getItem('cur') || '0');
+    var banners = document.querySelectorAll('.banner');
+    document.body.addEventListener('mousewheel', function (e) {
+      e.preventDefault();
+
+      if (moving || e.deltaY === 0) {
+        return;
+      }
+
+      if (e.deltaY > 0 && cur === banners.length) {
+        return;
+      }
+
+      if (e.deltaY < 0 && cur === 0) {
+        return;
+      }
+
+      moving = true;
+      var target = { scrollY: window.scrollY };
+      createjs.Tween.get(target).to({
+        scrollY: window.scrollY +
+        (e.deltaY > 0
+          ? window.innerHeight + banners[cur].offsetHeight
+          : 0 - window.innerHeight - banners[cur - 1].offsetHeight)
+      }, 1000).call(function () {
+        cur += e.deltaY > 0 ? 1 : -1;
+        localStorage.setItem('cur', cur + '');
+        moving = false;
+      }).addEventListener('change', function () {
+        window.scrollTo(0, target.scrollY);
+      });
+    });
+  </script>
+</body>
+
+</html>

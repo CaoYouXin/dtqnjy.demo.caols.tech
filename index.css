@@ -1,0 +1,74 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.banner {
+  position: absolute;
+  width: 100%;
+  height: 10rem;
+  line-height: 10rem;
+  text-align: left;
+  text-indent: 4em;
+  font-size: 4rem;
+  background-image: linear-gradient(to bottom, #454545, #666);
+  color: wheat;
+}
+
+.logo {
+  z-index: 1;
+  right: 5rem;
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  line-height: 10rem;
+  text-align: center;
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rosybrown;
+}
+
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.page.one {
+  background-color: #000000;
+}
+
+.banner.one {
+  top: 100%;
+}
+
+.logo.one {
+  top: calc(100%);
+}
+
+.page.two {
+  top: calc(100% + 10rem);
+  background-color: #888888;
+}
+
+.banner.two {
+  top: calc(200% + 10rem);
+}
+
+.logo.two {
+  top: calc(200% + 10rem);
+}
+
+.page.three {
+  top: calc(200% + 20rem);
+  background-color: #cccccc;
+}
