@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+ul, li, a { text-decoration:none; list-style:none}
+*{margin:0px; padding:0px; font-family:"微软雅黑";}
+body{padding:0px; margin:0px;font-family:"微软雅黑";}
+a img { border:0px;}
+.main{ width:auto; margin:0px; padding:0px;}
+.pic{ width:1100px; margin:auto; height:auto;}
+.tiao{ background:url(fengexian.jpg) no-repeat; width:100%; height:8px; background-position:center;}
+
+/*开始课程表*/
+*{margin:0px; padding:0px; font-family:"微软雅黑";}
+ul,li{ list-style:none;}
+a{text-decoration:none;font-family:"微软雅黑"; }
+a:hover{
+	text-decoration:underline;
+	color:#F00;
+	cursor: pointer;
+}
+.smain{ width:auto; height:auto; margin:auto; text-align:center;}
+.spic{ width:1000px; margin:auto; padding:0px;}
+bady{font-family:"微软雅黑"; font-size:12px; color:#fff;}
+.main{ width:auto; height:auto padding:0px; margin:auto; text-align:center;}
+.mainbanner{ height:525px; background:url(banner2.gif) center top no-repeat;}
+.cen_2{ height:258px; background:url(cen_2.gif) center top no-repeat;}
+.e_tu{ background:url(e_img.jpg) no-repeat; width:100%; height:182px; background-position:center;}
+.tiao{ background:url(fengexian.jpg) no-repeat; width:100%; height:8px; background-position:center;}
+.f_bg{ background:url(f_bg.jpg) no-repeat; width:1000px;  margin:0 auto; height:140px; }
+.f_wenzi{ font-size:34px; font-family:"微软雅黑";margin:0px; padding-top:62px; text-align:center; font-weight:bold;}
+.f_wenzi_huang{color:#ffe63d;}
+.f_wenzi_hong{ color:#ff3c15;}
+.f_wenzi_gray{ color:#3e312d; font-family:"微软雅黑"; font-size:16px; margin:0px; text-align:center; line-height:34px;}
+h_bg{width:1000px; margin:0 auto; height:155px; }
+.i_bg{width:1000px;  margin:auto; text-align:center;}
+.i_bg a{color:#d80202; text-decoration: none;}
+.biaoge_pth{ background:url(h_tiao.jpg) no-repeat center; height:30px; margin:18px auto 8px auto;  font-size:18px; color:#FFF; font-family:"微软雅黑"; font-weight:bold; text-align:center; line-height:30px;}
+.biaoge_tiao2{ background:url(h_tiao2.jpg) no-repeat center; height:30px; margin:15px auto 15px;  font-size:18px; color:#FFF; font-family:"微软雅黑"; font-weight:bold; text-align:center; line-height:30px;}
+.xkc1 a{ color:#d80202; text-decoration: underline;}
+td{ line-height:24px;}
+.lxwmt1 td{ font-size:16px; height:28px;}
+.lxwmt1 .lxwmtd1{ font-family:"微软雅黑"; color:#3b312f; padding-left:0px;}
+.lxwmt1 .lxwmtd2{ font-family:"微软雅黑"; color:#706a68;}
+.map{ margin-top:27px; padding:7px; border:1px solid #e1e1e1; width:462px;}
+.lxwmt2,.lxwmt3{ border:1px dashed #dadada; margin-top:20px;}
+.lxwmt2 td,.lxwmt2 th,.lxwmt3 td,.lxwmt3 th{ text-align:center; height:37px; border:1px solid #dadada;}
+.lxwmt2 td a{ color:#000;}
+/*end课程表*/
+/*----------尾部样式--------------*/
+.zk_foot{overflow:hidden; zoom:1; width:100%; float:left;}
+.foot{background-color:#212121; padding:26px 0; }
+.footer{display:block; width:960px; margin:0px auto; position:relative; color:#ccc; background:url(tel_foot.jpg) no-repeat right; height:89px;}
+.subnav{padding-bottom:8px; font-weight:bold; font-size:14px; width:750px;}
+.subnav a{ padding:0 15px 0 0; color:#ccc;}
+.copy{line-height:22px; width:750px; font-size:14px }
+/*----------尾部样式--------------*/
+/*马上预约*/
+.content { width:960px; margin:0 auto;}
+.zc{}
+.zc_t{ height:231px; overflow:hidden; background:url(zctbg.jpg) no-repeat 73px 35px; padding:0 0 0 80px;}
+.zcp1{ height:71px; line-height:71px; font-size:22px; color:#333; padding-left:43px;}
+.zcp2{ height:76px; font-weight:bold; font-size:32px; color:#ef8200;}
+.zcp2 span{ background:url(ico12.jpg) no-repeat 61px 24px; padding-left:102px; line-height:76px; display:inline-block}
+.zcp3{ height:64px; line-height:64px; color:#898989; padding-left:114px;font-size:22px;}
+.zc_c{ width:812px; height:283px; border:solid 3px #ccc; border-radius:3px; padding:2px; margin:0 auto;}
+.zc_l{ width:405px; text-align:center;line-height:28px; color:#ef8200;}
+.zc_wz{ padding:43px 0 0; height:70px;font-family:"微软雅黑"; font-size:16px;}
+.zc_pho{ background:url(zcl_line.jpg) no-repeat center top; font-size:14px; line-height:34px; padding:10px 0 0;}
+.zc_pho b{ font-family:Arial; font-size:32px; display:block; padding-bottom:22px; font-weight:normal}
+.zc_r{ background:url(zccbg.jpg) no-repeat 0 0 #e6e1da; width:354px; padding:25px 0 0 53px; height:258px;}
+.zc_r li{ height:43px; line-height:24px; font-size:14px;}
+.zc_r li.zc1{ height:52px;}
+.sinp01 { width:190px; height:20px; line-height:20px; padding:3px 5px 2px; border:0;background:url(input.jpg) no-repeat 0 0; float:left; font-size:12px;}
+.sbt{ width:85px; text-align:right; padding-right:4px; display:block; float:left}
+.sbz{ float:left; padding:0 0 0 10px;font-size:16px;}
+.zc_r p{ clear:both;background:url(zc_line.jpg) no-repeat 0 0; padding:24px 0 0 68px;}
+.fl { float:left;}
+.bodyfuwu{ background:url(bodyfuwubg.jpg) repeat-x;}
+.zc_r .zlt{ background:none; color:#EF8200; font-size:23px; padding-left:0px;padding-top:0;}
+/*马上预约*/
+
+.piaofu{POSITION: fixed; WIDTH:130px; height:512px;MARGIN-LEFT: 0px; TOP:75px; z-index:10000}
+
+/*班型表*/
+#sunbm{ font-size:16px;}
+#sunbm table{border-top:1px solid #000;	border-right:1px solid #000;}
+#sunbm table td{border-bottom:1px solid #000;border-left:1px solid #000;}
+.banxing226{ color:#FFF; !important}
+.td226{ color:#FFF;}
+.banxingname{ font-size:18px; line-height:25px;}
+.price{ font-size:18px; color:#000; font-weight:bold; text-decoration:line-through;}
+.price1{ font-size:20px; color:#f00; font-weight:bold;}
+.price2{ font-size:22px; color:#f00; font-weight:bold;}

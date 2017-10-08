@@ -1,0 +1,75 @@
+.bottom_part2{
+    background:#276dc3;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.c_base{width: 1160px;margin:0 auto;}
+.c_bot_lt{width: 890px;float: left;}
+.c_bot_rg{float: right;}
+
+.c_bot_lt_hd a{
+    display: inline-block;
+    width:65px;
+    height:95px;
+    line-height: 95px;
+    margin-right: 16px;
+    color:#fff;
+    text-align: center;
+    text-decoration:none;
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 10px;
+    font-family:"Microsoft YaHei";
+ }
+ .c_bot_lt_hd a:nth-child(11){
+    margin-right: 0px;
+ }
+.c_bot_lt_hd a.active{
+    background:url(http://www.mobiletrain.org/images/index/bottom_part2.png) no-repeat center top;
+}
+.c_bot_lt ul{padding:1% 0 0;}
+.c_bot_lt li{color:#fff;line-height:200%;display:none; font-size: 16px;text-align: left;font-family: "Microsoft YaHei";font-weight: 100;margin-top:20px;}
+.c_bot_rg li{ float:left; font-size:13px; text-align:center;color:#fff; line-height:18px;padding-top: 10px;}
+.c_bot_rg li p{ padding-top:5px;}
+
+strong{
+    font-size: 18px;
+    font-weight: 900;
+    color:#edba11;
+    line-height:56px;
+}
+.bottom_part3{
+    width:100%;
+    background:#143257;
+    box-sizing:border-box;
+    padding:5px 0px 11px;
+
+}
+
+.c_footer{
+    text-align:center;
+    font-size:13px;
+    line-height:28px;
+    color:#AFAFAF;
+    font-family: "Microsoft YaHei";
+ }
+.c_footer a{padding:0 2px;}
+.c_footer .c_footer_nav a:hover{
+    text-decoration:underline;
+}
+.c_footer_nav{
+    width:100%;
+    text-align: center;
+}
+.c_footer_nav a{
+    font-size:13px;
+    padding:4px;color:#fff;
+	margin:0px 10px;
+}
+.c_footer_nav a:hover{
+    padding:0 4px;
+    color:#ffda0c;
+}
+.c_footer p a{color:#AFAFAF;}
+.c_footer p{font-size:12px;line-height: 14px;}
+.c_bot_lt ul li:nth-child(1){display:list-item;}

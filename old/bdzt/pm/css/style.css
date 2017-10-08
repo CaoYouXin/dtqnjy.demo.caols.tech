@@ -1,0 +1,31 @@
+.show_nav_little {display:none;}
+.show_nav_big {width:170px; height:auto; border:2px rgb(210, 43, 30) solid; position: fixed;right: 30px;top: 200px;z-index: 999999999; background:#ffffff;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
+.show_nav_big .closed_nav { width:45px; height:14px; margin:5px auto 0 auto; background:url(../img/closeing.jpg) center center no-repeat; cursor:pointer;}
+.show_nav_big .show_nav_title_1, .show_nav_big .show_nav_title_little, .show_nav_big ul.show_nav_qq, .show_nav_big .show_nav_title_2, .show_nav_big ul.show_nav_tel, .show_nav_big .show_nav_top {width:150px; height:auto; margin:0 auto;}
+.show_nav_big .show_nav_title_1 {margin-top:13px;}
+.show_nav_big .show_nav_title_1 span { display:block; width:95px; height:17px; background:url(../img/kefu.png) -15px -10px no-repeat; margin-left:3px;}
+.show_nav_big .show_nav_dot_red {width:150px; height:1px; background:#d22b1e;margin:7px auto 0 auto;}
+.show_nav_big .show_nav_title_little span {display:block; width:90px; height:21px; background:url(../img/kefu.png) -15px -154px no-repeat; margin-left:2px; }
+.show_nav_big .show_nav_title_little {margin-top:10px;margin-bottom:12px;}
+.show_nav_big .show_nav_dot_gray {width:150px; height:1px; background:#e6e5e4;margin:7px auto 0 auto;}
+.show_nav_big ul.show_nav_qq {margin-top:7px;}
+.show_nav_big ul.show_nav_qq li {width:inherit; overflow:hidden; border-bottom:1px #e6e5e4 solid;padding:10px 0;}
+.show_nav_big ul.show_nav_qq li span {display:block;}
+.show_nav_big ul.show_nav_qq li span.f1 {width:15px; height:16px; background:url(../img/kefu.png) -17px -86px no-repeat; float:left; margin-left:7px; margin-top:1px;}
+.show_nav_big ul.show_nav_qq li span.f2 {margin-left:12px; float:left; margin-top:1px; font-family: Microsoft YaHei;}
+.show_nav_big ul.show_nav_qq li span.f2 a{color:#00a0ea;font-size:12px;}
+.show_nav_big ul.show_nav_qq li span.f2 a:hover{ text-decoration:underline;}
+.show_nav_big ul.show_nav_qq li span.f3 {width:40px; height:20px; background:url(../img/kefu.png) -16px -118px no-repeat; float:right; }
+.show_nav_big ul.show_nav_qq li span.f3 a {display:block; width:100%; height:100%;}
+.show_nav_big .show_nav_title_2 {margin-top:13px; margin-bottom:12px;}
+.show_nav_big .show_nav_title_2 span { display:block; width:95px; height:17px; background:url(../img/kefu.png) -15px -49px no-repeat; margin-left:4px;}
+.show_nav_big ul.show_nav_tel {}
+.show_nav_big ul.show_nav_tel li {width:inherit; overflow:hidden; border-bottom:1px #e6e5e4 solid;padding:7px 0;}
+.show_nav_big ul.show_nav_tel li span {display:block; float:left;}
+.show_nav_big ul.show_nav_tel li span.f1 {width:13px; height:23px; background:url(../img/kefu.png) -18px -193px no-repeat; margin-left:5px;}
+.show_nav_big ul.show_nav_tel li span.f2 {margin-top:7px; font-family: Microsoft YaHei; font-size:12px; color:#000; margin-top:3px; margin-left:6px;}
+.show_nav_big .show_nav_top{ text-align:center;padding-top:17px; padding-bottom:17px;}
+.show_nav_big .show_nav_top img {cursor:pointer;}
+.show_nav_big .show_nav_top img.mar{ margin-left:10px;}
+.show_naw_erweima{position: fixed;right: 204px;top: 498px;z-index: 999999999;}
+.show_naw_erweima img{display:none;}

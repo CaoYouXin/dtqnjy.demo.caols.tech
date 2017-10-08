@@ -1,0 +1,395 @@
+/**
+ * 所有页面可引用的基础样式
+ * 创建 by zhangyg on 2015/4/07.
+ * 黄:#f76d02  logo绿:#60713d 红:#f40  灰色边框：#dddddd / #d7d7d7  灰色：#4B4B4B 二级灰：7c7c7c 背景灰：#F7F7F7 橙色：#FB7221
+ */
+
+/*轮播*/
+.carousel-row{
+    background-color: #ffffff;
+}
+.carousel-row .xm-slider-container{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+/* 覆盖bootstrap样式，原来为max-width:100% */
+.img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img{
+    width: 100%;
+    height: 500px;
+}
+@media screen and (max-height: 768px) {
+    .carousel-row .xm-slider-container{
+        width: 1350px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    .carousel-inner>.item>a>img{
+        width: 1350px;
+        height: 350px;
+    }
+}
+@media screen and (max-width: 1550px) {
+    .carousel-row .xm-slider-container{
+        height: 400px;
+    }
+    .carousel-inner>.item>a>img{
+        height: 400px;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .carousel-row .xm-slider-container{
+        height: 350px;
+    }
+    .carousel-inner>.item>a>img{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .carousel-row .xm-slider-container{
+        height: 300px;
+    }
+    .carousel-inner>.item>a>img{
+        height: 300px;
+    }
+}
+
+/* 覆盖bootstrap样式 */
+.carousel-indicators li{
+    width: 64px;
+    height: 7px;
+    border:none;
+    border-radius: 0;
+    background-image: url("../images/index/tab.png");
+}
+.carousel-indicators .active{
+    width: 64px;
+    height: 7px;
+    margin: 1px;
+    border:none;
+    background-image: url("../images/index/tab_hover.jpg");
+}
+
+/*服务标题*/
+.server-title-desc{
+    height: 180px;
+    text-align: center;
+    overflow: hidden;
+}
+.server-title-desc .desc-01{
+    font-size: 28px;
+    margin-top: 63px;
+}
+.server-title-desc .desc-tip{
+    font-size: 16px;
+    color: #7c7c7c;
+}
+
+/*三大服务类别*/
+.server-container{
+    background-color: #F7F7F7;
+}
+.servers dl{
+    width: 350px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+    background-color: #ffffff;
+    float: left;
+}
+.servers dl dd{
+    text-align: center;
+    padding-top: 10px;
+}
+.servers dl dd div{
+    font-size: 18px;
+    line-height: 32px;
+}
+.servers dl dd p{
+    font-size: 14px;
+    color: #7c7c7c;
+}
+
+/*服务特色展示*/
+.features-list{
+    padding-top: 12px;
+}
+.features-list dl{
+    width: 390px;
+    text-align: center;
+    float: left;
+}
+.features-list dl dd{
+    padding-top: 10px;
+}
+.features-list dl dd div{
+    font-size: 18px;
+    line-height: 32px;
+}
+.features-list dl dd p{
+	margin:13px auto 0 auto;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgb(248,141,1);
+	padding:10px 10px;
+	font-size:14px;
+	width:100px;
+	text-align:center;
+	line-height:15px;
+	height:15px;
+	font-weight:bold;
+	color:#ffffff;
+}
+.features-list dl dd p a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:#ffffff;
+}
+
+.body_grep_1{
+	min-width:1170px;
+	height:auto;
+	background:#ffffff;
+	margin:0 auto;
+}
+
+.body_grep_2{
+	width:1190px;
+	height:300px;
+	background:rgb(247,247,247);
+	margin:0 auto;
+}
+
+.center_body_950{
+	width:900px;
+	margin:0 auto;
+}
+.center_body_1190{
+	width:1190px;
+	margin:0 auto;
+}
+.center_body_1190 div.uuii{
+	width:202px;
+	height:86px;
+	background-image: url("../../img/gywm.png");
+	margin:30px auto 0 auto;
+	
+}
+.center_body_1190 div.ffdd{
+	margin:10px auto 0 auto;
+	width:inherit;
+}
+.center_body_1190 div.ffdd div.c1{
+	float:left;
+	width:500px;
+}
+
+.center_body_1190 div.ffdd div.c2{
+	float:left;
+	width:660px;
+}
+.center_body_1190 div.ffdd div.c2 .p1{
+	width:inherit;
+	background:rgb(248,141,1);
+	height:auto;
+	color:#ffffff;
+	padding:4px 10px;
+	font-size:18px;
+	margin-left:40px;
+	letter-spacing:.2em;
+}
+.center_body_1190 div.ffdd div.c2 .p2{
+	width:inherit;
+	height:auto;
+	font-size:14px;
+	margin-left:40px;
+	line-height:32px;
+}
+.anniu_body{
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	background:rgb(248,141,1);
+	padding:20px 10px;
+	font-size:20px;
+	width:200px;
+	margin:-20px auto 0 auto;
+	text-align:center;
+	line-height:15px;
+	height:15px;
+	font-weight:bold;
+}
+.anniu_body a{
+	color:#ffffff;
+	display:block;
+	width:100%;
+	height:100%;
+}
+.ge_body{
+	width:300px;
+	height:50px;
+	margin:0 auto;
+}
+ul.anniu_body_ul{
+	width:1060px;
+	height:auto;
+	margin:50px auto 0 auto;
+	overflow:hidden;
+}
+
+ul.anniu_body_ul li{
+	float:left;
+	margin-right:160px;
+}
+ul.anniu_body_ul li a{
+	width:100%;
+	height:100%;
+	display:block;
+}
+ul.anniu_body_ul li.f1{
+	width:136px;
+	height:140px;
+	background:url(../../img/banner001.png) no-repeat center center;
+}
+ul.anniu_body_ul li.f2{
+	width:134px;
+	height:145px;
+	background:url(../../img/banner002.png) no-repeat center center;
+}
+ul.anniu_body_ul li.f3{
+	width:130px;
+	height:141px;
+	background:url(../../img/banner003.png) no-repeat center center;
+}
+ul.anniu_body_ul li.f4{
+	width:144px;
+	height:140px;
+	background:url(../../img/banner004.png) no-repeat center center;
+}
+ul.anniu_body_ul li.no-right{
+	margin-right:0;
+}
+
+.center_boa{
+	width:520px;
+	height:63px;
+	margin:70px auto 0 auto;
+	background:url(../../img/zhongjian_1.jpg) center center no-repeat;
+}
+
+ul.anniu_body_ul_f{
+	width:1190px;
+	height:auto;
+	margin:50px auto 0 auto;
+	overflow:hidden;
+}
+
+ul.anniu_body_ul_f li{
+	width:290px;
+	height:auto;
+	float:left;
+	margin-right:10px;
+	margin-bottom:40px;
+}
+ul.anniu_body_ul_f li div span{
+	display:block;
+	position:absolute;
+	background:#000;
+	opacity:.8;
+	color:#ffffff;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	font-size:14px;
+	display:none;
+}
+ul.anniu_body_ul_f li div:hover span{
+	display:block;
+}
+ul.anniu_body_ul_f li div span b{
+	width:270px;
+	height:180px;
+	display:block;
+	margin:0 auto;
+	margin-top:10px;
+	line-height:28px;
+}
+ul.anniu_body_ul_f li div{
+	width:290px;
+	height:200px;
+	position:relative;
+}
+ul.anniu_body_ul_f li div img{
+	width:290px;
+	height:200px;
+	border:0;
+}
+ul.anniu_body_ul_f li p{
+	width:290px;
+	height:35px;
+	line-height:55px;
+	text-align:center;
+	font-size:14px;
+}
+ul.anniu_body_ul_f li a{
+	width:100%;
+	height:100%;
+	display:block;
+	color:#333;
+}
+ul.anniu_body_ul_f li a:hover{
+	color:rgb(248,141,1);
+}
+ul.anniu_body_ul_f li.no-right{
+	margin-right:0;
+}
+
+.body_bottom_1{
+	width:820px;
+	height:36px;
+	margin:50px auto 0 auto;
+	background:url(../../img/zhongjian_111.jpg) center center no-repeat;
+}
+
+ul.anniu_body_ul_kl{
+	width:1190px;
+	height:auto;
+	margin:70px auto 0 auto;
+	overflow:hidden;
+}
+
+ul.anniu_body_ul_kl li{
+	width:881px;
+	height:auto;
+	margin:0px auto 60px auto;
+}
+ul.anniu_body_ul_kl li div{
+	width:831px;
+	height:auto;
+	text-align:center;
+}
+ul.anniu_body_ul_kl li div img{
+
+}
+ul.anniu_body_ul_kl li p{
+	width:881px;
+	height:35px;
+	line-height:85px;
+	text-align:center;
+	font-size:20px;
+}
+ul.anniu_body_ul_kl li a{
+	width:100%;
+	height:100%;
+	display:block;
+	color:#333;
+}
+ul.anniu_body_ul_kl li a:hover{
+	color:rgb(248,141,1);
+}
+ul.anniu_body_ul_kl li.no-right{
+	margin-right:0;
+}

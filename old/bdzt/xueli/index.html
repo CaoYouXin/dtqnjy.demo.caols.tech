@@ -1,0 +1,508 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>成人高考 网络教育 函授学历—大同清鸟教育</title>
+<meta name="description" content="成人高考, 成人高考-2017年成人高考,成绩查询,成人高考报名时间,招生简章,成人高校,成考招生,成人高考试题,成人教育,成人高考培训，成人高考专升本，大同成人高考">
+<meta name="keywords" content="成人高考-2017年成人高考,成绩查询,成人高考报名时间,招生简章,成人高校,成考招生,成人高考试题,成人教育,成人高考培训，成人高考专升本，大同成人高考">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/bannerstyle.css">
+<style>*{margin:0;padding:0;list-style:none;text-decoration:none;}.clearfix:after{content:"";display:block;clear:both;}.clearfix{zoom:1;}#box{width:100%;height:438px;margin:0 auto;overflow:hidden;position:relative;top:0;left:0;}#box ul{position:absolute;top:0;left:0;overflow:hidden;}#box a.left{position:absolute;left:0;top:50%;margin-top:-25px;height:62px;width:30px;background:rgba(0,0,0,.2);opacity:0.7;filter:alpha(opacity:70);line-height:62px;text-align:center;display:none;color:#fff;font-size:22px;font-family:simsun;}#box a.right{position:absolute;right:0;top:50%;margin-top:-25px;height:62px;width:30px;background:rgba(0,0,0,.2);opacity:0.7;filter:alpha(opacity:70);line-height:62px;text-align:center;display:none;color:#fff;font-size:22px;font-family:simsun;}#box ul li{float:left;width:1366px;height:438px;}#box ul li img{}#box ol{position:absolute;bottom:10px;left:50%;margin-left:-55px;}#box ol li{width:20px;height:20px;line-height:18px;border-radius:50%;text-align:center;background:#3e3e3e;float:left;margin:0 10px;color:#fff;font-size:8px;}#box ol li.on{background:#b61b1f;}</style>
+<script>
+'use strict';
+window.onload = function ()
+{
+	var oBox = document.getElementById('box');
+	var oUl = oBox.getElementsByTagName('ul')[0];
+	var aLi = oUl.children;
+	var oOl = document.getElementsByTagName('ol')[0];
+	var aBtn = oOl.getElementsByTagName('li');
+	var oPrev = document.getElementById('al');
+	var oNext = document.getElementById('ar');
+	oUl.innerHTML+=oUl.innerHTML;
+	oUl.style.width=aLi.length*aLi[0].offsetWidth+'px';
+	var W = oUl.offsetWidth/2;
+	oBox.onmouseover=function(){
+		oPrev.style.display='block';
+		oNext.style.display='block';
+	};
+	oBox.onmouseout=function(){
+		oPrev.style.display='none';
+		oNext.style.display='none';
+	};
+	var iNow=0;
+	for(var i=0;i<aBtn.length;i++)
+	{
+		(function(index)
+		{
+			aBtn[i].onclick=function()
+			{
+				//如果当前是最后一张，并且点的是第一张，iNow++
+				if((iNow%aBtn.length==aBtn.length-1||iNow==-1)&&index==0)
+				{
+					iNow++;
+				}
+				//如果当前是第一张，并且点的是最后一张，iNow--
+				if(iNow%aBtn.length==0&&index==aBtn.length-1)
+				{
+					iNow--;
+				}
+				//如何推出？
+				iNow=Math.floor(iNow/aBtn.length)*aBtn.length+index;
+				tab();
+			};
+		})(i);
+	}
+	function tab()
+	{
+		
+		for(var i=0;i<aBtn.length;i++){
+			aBtn[i].className='';
+		}
+		if(iNow>0)
+		{
+			aBtn[iNow%aBtn.length].className='on';
+		}
+		else
+		{
+			aBtn[(iNow%aBtn.length+aBtn.length)%aBtn.length].className='on';
+		}
+		startMove(oUl,-iNow*aLi[0].offsetWidth);
+		//oUl.style.left=-iNow*aLi[0].offsetWidth+'px';
+	}
+	oPrev.onclick=function(){
+		iNow--;
+		tab();
+	};
+	oNext.onclick=function()
+	{
+		iNow++;
+		tab();
+	};
+	var left = 0;
+	function startMove(obj,iTarget)
+	{
+		var start = left;
+		var dis = iTarget-start;
+		var count = Math.floor(700/30);
+		var n = 0;
+		clearInterval(obj.timer);
+		obj.timer = setInterval(function()
+		{
+			n++;
+			var a = 1-n/count;
+			left = start+dis*(1-Math.pow(a,3));
+			if(left<0)
+			{
+				obj.style.left=left%W+'px';
+			}
+			else
+			{
+				obj.style.left=(left%W-W)%W+'px';
+			}
+			if(n==count)
+			{
+				clearInterval(obj.timer);
+			}
+		},30);
+	}
+};
+</script>
+</head>
+<body>
+<div class="head wid clearfix">
+<div class="logo"><a href="http://www.dtqnjy.com"><img src="images/top_03.jpg"></a></div>
+<div class="my"><span style="font-size:22px;color:#333;">认准正规学历机构</span>
+<p style="font-size:16px;">教育部资质备案、正规国家学历、学信网可查</p></div>
+<div class="zx">
+<p class="zxp2 clearfix" style="margin-top:20px;margin-right:25px;">
+<img src="images/top_20.jpg"><b style="font-size:18px;">咨询热线：</b><span style="font-size:18px;">0352-2022856<br>0352-5117166</span>
+</p>
+</div>
+</div>
+<div class="nav">
+<div class="wid xnav">
+<ul class="clearfix">
+<li class="nav_first"><a href="http://www.woyaoxue360.com" target="_blank">首页</a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">名校专业</a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">函授学历</a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">远程学历</a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">报考优势</a></li>
+<li><a href="http://www.woyaoxue360.com/static/about.html" target="_blank">关于清鸟</a></li>
+<li class="po1" style="margin-right:0;"><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">服务保障</a></li>
+</ul>
+</div>
+</div>
+ 
+<div class="slide-main" id="touchMain">
+<!--<a class="prev" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/l-btn.png"></a>-->
+<div class="slide_tp">
+<div class="slide_tp_1">
+<a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">
+<img src="images/banner.jpg" border="0"/>
+</a>
+</div>
+</div>
+<!--
+<div class="slide" id="bgstylea">
+<a stat="sslink-1" href="javascript:;" onclick="doyoo.util.openChat('g=10057028');return false;">
+<img src="images/xinb2_01.gif" style="witdh:1366px; margin:0 auto;"><img src="images/xinb2_02.gif" style="witdh:1366px; margin:0 auto;"><img src="images/xinb2_03.gif" style="witdh:1366px; margin:0 auto;">
+</a>
+</div>
+<div class="slide" id="bgstyleb">
+<a stat="sslink-2" href="javascript:;" onclick="doyoo.util.openChat('g=10057028');return false;">
+<img src="images/xinb1_01.gif" style="witdh:1366px; margin:0 auto;"><img src="images/xinb1_03.gif" style="witdh:1366px; margin:0 auto;"><img src="images/xinb1_04.gif" style="witdh:1366px; margin:0 auto;">
+</a>
+</div>-->
+<!--<a class="next" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/r-btn.png"></a>-->
+<div class="item">
+<!--<a class="cur" stat="item1001" href="javascript:;">1</a><a href="javascript:;" stat="item1002">2</a><a href="javascript:;" stat="item1003">3</a>-->
+</div>
+</div>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<div class="content4">
+<div class="xcontent4 wid" style="padding-top:50px;">
+<h2><img src="images/content4_03.png"></h2>
+<ul class="clearfix">
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/heilongjiangkejidaxue.jpg"><span>黑龙江科技大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/hebeigongchengdaxue.jpg"><span>河北工程大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/xibeishifandaxue.jpg"><span>西北师范大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/haerbinshifandaxue.jpg"><span>哈尔滨师范大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/tianjinshifandaxue.jpg"><span>天津师范大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/shanxidatongdaxue.jpg"><span>山西大同大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/beijingkejidaxue.jpg"><span>北京科技大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/dongbeidaxue.jpg"><span>东北大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/sichuannongyedaxue.jpg"><span>四川农业大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/zhongguodizhidaxue.jpg"><span>中国地质大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/dongbeishifandaxue.jpg"><span>东北师范大学</span></a></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/logo/beijingjiaotongdaxue.jpg"><span>北京交通大学</span></a></li>
+</ul>
+<!--2942347987-->
+<div class="con4_bottom">
+<a class="con4_a1" href="http://www.dtqnjy.com/static/zsjz/" target="_blank">点击了解更多名校</a>
+<a class="con4_a2" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">TEL：0352-2022856</a>
+</div>
+</div>
+</div>
+ 
+<div class="content5 wid">
+<div class="con5_top">
+<h2><img src="images/content5_03.png"></h2>
+<ul class="clearfix">
+<li><img src="images/content5_07.png">
+<strong>建筑类职称首选</strong>
+<span>土木工程、<b>建筑学</b>、计算机、工程造价</span>
+</li>
+<li><img src="images/content5_09.png">
+<strong>公考留学首选</strong>
+<span><b>汉语言文学</b>、新闻学、英语、学前教育</span>
+</li>
+<li><img src="images/content5_11.png">
+<strong>升职加薪首选</strong>
+<span>项目管理、工程管理、能源采购、<b>会计学</b></span>
+</li>
+<li><img src="images/content5_13.png">
+<strong>名校专业首选</strong>
+<span>人力资源管理、行政管理法学、<b>教育学</b></span>
+</li>
+</ul>
+</div>
+<div class="con5_zhong">上大同清鸟教育拿名校学历，热门专业 <a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">查询入口</a></div>
+<div class="con5_bottom">
+<ul class="clearfix" style="margin-top:50px;">
+<li><strong>经管学</strong><img src="images/content5_111.png"><div><span>会计学、金融学、国际经济与贸易、行政管理、工商管理、旅游管理、经济学 ...</span></div></li>
+<li><strong>工学</strong><img src="images/content5_28.png"><div><span>机电一体化、水利水电工程、工程造价、土木工程、矿山机电、建筑工程技术 ...</span></div></li>
+<li><strong>文史学 / 医学</strong><img src="images/content5_35.png"><div><span>汉语言文学、 新闻学、 护理学、 临床医学、 历史学 ...</span></div></li>
+<li><strong>教育学</strong><img src="images/content5_39.png"><div><span>学前教育、语文教育、小学教育、思想政治教育、美术教育、体育教育 ...<br></span></div></li>
+<li><b><a href="http://www.dtqnjy.com/static/zsjz/" target="_blank">查看更多专业</a></b></li>
+</ul>
+</div>
+</div>
+<div class="content1 wid">
+<!--
+<div class="con1_zhong">
+<ul class="clearfix" style="margin-top: 60px;">
+<li><strong>成人函授</strong><span>成人函授只需要参加一次10月的全国统考，考过即可录取，2年半后即可毕业，中间无需过多的学习程序<br><b style="color:#ff0000;"><p style="font-weight:bold;">特 点：</b><br>名校函授学历，以自学为主<br>空间、时间，地域无限制<br>周末学习，不耽误工作</p></span></li>
+<li style="margin-right: 0;"><strong>网络教育</strong><span>网络教育入学考试一般都是机考，每个学校都有大量的考试机考题，在考前供考生提前复习，难度接近于零<br><b style="color:#ff0000;"><p style="font-weight:bold;">特 点：</b><br>时间、地域无限制<br>足不出户就可学习<br>优质教学资源，无精力负担</p></span></li>
+</ul>
+</div>
+-->
+<div class="con1_bottom" style="margin-top:50px;">
+<a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank" class="con1_a1">点击了解学历详情</a>
+<a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank" class="con1_a2">TEL：0352-2022856</a>
+</div>
+</div>
+ 
+<div class="content2">
+<div class="xscontent2">
+<div class="con2_top wid" style="margin-top:70px;">
+<img src="images/xcontent2_03.png">
+<img src="images/xcontent2_05.png">
+<img src="images/xcontent2_06.png">
+<img src="images/xcontent2_07.png">
+</div>
+</div>
+<div class="xxcontent2">
+<div class="con2_bottom wid">
+<a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content2_06.png"></a>
+<p>学历专线咨询：0352-2022856</p>
+</div>
+</div>
+</div>
+ 
+<div class="content3 wid" style="margin-top:50px;">
+<p>
+<img src="images/xcontent3_03.png">
+<img src="images/xcontent3_05.png">
+<img src="images/xcontent3_06.png">
+</p>
+<p>
+<img src="images/xcontent3_07.png">
+<img src="images/xcontent3_08.png">
+<img src="images/xcontent3_09.png">
+</p>
+<p>
+<img src="images/xcontent3_10.png">
+<img src="images/xcontent3_11.png" usemap="#Map">
+<map name="Map">
+<area shape="rect" coords="299,165,484,196" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">
+<area shape="rect" coords="499,164,686,191" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">
+</map>
+<img src="images/xcontent3_12.png"></p>
+</div>
+ 
+ 
+<!--<div class="content6">
+<div class="xcontent6 wid" style="margin-top:100px;">
+<h2><img src="images/content6_03.png"></h2>
+<ul class="clearfix">
+<li><img src="images/xcontent6_03.gif"><a href="#" onclick="doyoo.util.openChat('g=10057028');return false;">点击了解自考</a></li>
+<li><img src="images/xcontent6_05.gif"><a href="#" onclick="doyoo.util.openChat('g=10057028');return false;">点击了解远程</a></li>
+<li><img src="images/xcontent6_07.gif"><a href="#" onclick="doyoo.util.openChat('g=10057028');return false;">点击了解成考</a></li>
+<li class="po7" style="margin-right:0;"><img src="images/xcontent6_09.gif"><a href="#" onclick="doyoo.util.openChat('g=10057028');return false;">点击了解函授</a></li>
+</ul>
+</div>
+</div>-->
+
+<div class="content7 wid" style="margin-top:60px;">
+<h2><img src="images/content7_03.png"></h2>
+<p class="clearfix"><img src="images/xcontent7_03.png" usemap="#Map2">
+<map name="Map2">
+<area shape="rect" coords="50,221,234,258" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">
+<area shape="rect" coords="49,502,235,539" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">
+</map>
+<img src="images/xcontent7_04.png" usemap="#Map3">
+<map name="Map3">
+<area shape="rect" coords="27,503,212,537" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">
+</map>
+<img src="images/xcontent7_05.png" usemap="#Map4">
+<map name="Map4">
+<area shape="rect" coords="24,224,206,257" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">
+<area shape="rect" coords="26,501,212,538" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">
+</map>
+</p>
+</div>
+ 
+<div class="content8">
+<div class="xcontent8 wid" style="margin-top:60px;">
+<h2><img src="images/content8_03.png"></h2>
+<ul class="clearfix">
+<li><img src="images/xcontent8_03.gif"><a class="con8a1" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击索要知识纲要</a></li>
+<li><img src="images/xcontent8_05.gif"><a class="con8a2" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击了解考证</a></li>
+<li><img src="images/xcontent8_07.png"><a class="con8a3" href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击了解高薪专业</a></li>
+</ul>
+</div>
+</div>
+ 
+<div class="content9 wid">
+<h2><img src="images/content9_03.png"></h2>
+<ul class="clearfix">
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_10.png"><span>如何考取学历</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_12.png"><span>什么专业不用考英语</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_15.png"><span>需要多少钱</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_07.png"><span>我们在哪上课</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_25.png"><span>什么专业好考</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_27.png"><span>多久可以取得证书</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_22.png"><span>报名时间</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_29.png"><span>哪种学习方式好</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_39.png"><span>哪些院校容易考</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_41.png"><span>高校报考条件是什么</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_43.png"><span>直接考本科吗</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/content9_36.png"><span>免费咨询热线：0352-2022856</span></a><div><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">点击咨询》</a></div></li>
+</ul>
+</div>
+ 
+<div class="content10" style="margin-top:70px;">
+<img src="images/xcontent10_02.gif">
+<img src="images/xcontent10_03.gif">
+<a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/xcontent10_04.gif">
+</a>
+</div>
+
+<div class="content15 wid" style="margin-top:30px;">
+<h2><img src="images/content15_03.png"></h2>
+<h3><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/benzhou_03.png"></a></h3>
+<ul class="clearfix">
+<li><img src="images/xcontent15_03.gif"><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">查看更多</a></li>
+<li><img src="images/xcontent15_05.gif"><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">查看更多</a></li>
+<li><img src="images/xcontent15_07.png"><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank">查看更多</a></li>
+</ul>
+<p class="con15p2 clearfix"><span>大同清鸟教育全程一站式学习支持服务，学历提升</span><img src="images/content15_19.png"></p>
+</div>
+ 
+<div class="content16">
+<p><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/con15p_03.png"></a></p>
+</div>
+
+<style type="text/css">
+.footer{width:100%; background:#444; overflow: hidden; height:120px;}
+.footer .inner{width:1000px; margin:0 auto; overflow: hidden; padding-top:15px;}
+.footer .foot_ch{padding:25px 0; }
+.footer .foot_ch h3{padding-bottom: 10px; color:#fff;}
+.footer .about {border-top: 0;}
+.footer .about .div_list{float:left; margin-right: 115px;}
+.footer .about .div_list li a{ line-height: 24px; font-size:12px; color: #bbb; text-decoration:none;}
+.footer .about .div_list li a:hover{color: #0099E5;}
+.footer .about .div_wx{float:right; margin-right: 0; overflow:hidden; width:276px;}
+.footer .about .div_wx div{float:left; width:120px; text-align:center;}
+.footer .about .div_wx div p{ font-size:12px; padding-top:7px; color:#bbb;}
+.footer .about .div_wx img{display: inline-block;}
+.footer .add h2{float: left;}
+.footer .add p{float: left; font-size: 12px; line-height: 24px; margin-left: 20px; color:#bbb;}
+.footer .add ul{float:right; overflow: hidden;}
+.footer .add ul li{float: left; margin-left: 4px;}
+.footer .add a{color:#bbb;}
+</style>
+	<div class="footer">
+		<div class="inner">
+		  <div class="foot_ch add">
+		    <h2><img src="images/logo-bai.png" alt="大同清鸟" width="145"></h2>
+				<p>版权所有 2007 - 2017 大同市裕佰源商贸有限公司 大同清鸟精英教育学校&nbsp;&nbsp;&nbsp;地址：大同市魏都大道富临宝城B-1509&nbsp;&nbsp;&nbsp;邮编：037000 <br>电
+话：0352-2022856&nbsp;&nbsp;&nbsp;电话：0352-5117166&nbsp;&nbsp;&nbsp;邮
+箱: 
+dtqnjy@163.com&nbsp;&nbsp;&nbsp;晋ICP备15007348号-1&nbsp;&nbsp;&nbsp;</p>
+				<ul style="margin-top:-28px;">
+					<li><a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;" target="_blank"><img src="images/erweima.png"></a></li>
+				</ul>
+		  </div>
+	  </div>
+	</div>
+<div class="show_nav_little">
+	<div class="suspend">
+  <div class="susp_top"></div>
+  <a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;"> <i class="icon_one"></i> <span>快速报名</span> </a>  <a href="http://p.qiao.baidu.com/im/index?siteid=10542201&ucid=23291973&cp=&cr=&cw=;"> <i class="icon_four"></i> <span>在线咨询</span> </a>
+ 
+</div>
+<div class="fixed">
+  <ul>
+    <li class="fixed_iphon" style="display:none;"> <b></b>
+      <p class="tell_num">0352-5117333</p>
+    </li>
+    <li class="fixed_wei"> <b style="background: rgb(210, 43, 30) url(images/img_wei1.png) no-repeat scroll center center;" class="num"></b>
+      <div style="display: none;">
+        <h5 style="color:#333;">扫一扫关注大同清鸟</h5>
+        <img src="images/weixin.jpg" height="130" width="130"> <span></span> </div>
+    </li>
+    <li class="fixed_top"> <a href="javascript:scroll(0,0)"><b style="background: rgb(210, 43, 30) url(images/img_top1.png) no-repeat scroll center center;"></b></a> </li>
+  </ul>
+</div>
+</div>
+<div class="show_nav_big">
+	<div class="closed_nav"></div>
+	<div class="show_nav_title_1"><span></span></div>
+	<div class="show_nav_dot_red"></div>
+	<div class="show_nav_title_little"><span></span></div>
+	<div class="show_nav_dot_gray"></div>
+	<ul class="show_nav_qq">
+		<li><span class="f1"></span><span class="f2"><a href="http://wpa.qq.com/msgrd?v=3&uin=330482118&site=qq&menu=yes" target="_blank">王老师</a></span><span class="f3"><a href="http://wpa.qq.com/msgrd?v=3&uin=330482118&site=qq&menu=yes" target="_blank"></a></span></li>
+		<li><span class="f1"></span><span class="f2"><a href="http://wpa.qq.com/msgrd?v=3&uin=330482118&site=qq&menu=yes" target="_blank">张老师</a></span><span class="f3"><a href="http://wpa.qq.com/msgrd?v=3&uin=330482118&site=qq&menu=yes" target="_blank"></a></span></li>
+		<li><span class="f1"></span><span class="f2"><a href="http://wpa.qq.com/msgrd?v=3&uin=1663145352&site=qq&menu=yes" target="_blank">乔老师</a></span><span class="f3"><a href="http://wpa.qq.com/msgrd?v=3&uin=1663145352&site=qq&menu=yes" target="_blank"></a></span></li>
+		<li><span class="f1"></span><span class="f2"><a href="http://wpa.qq.com/msgrd?v=3&uin=1663145352&site=qq&menu=yes" target="_blank">袁老师</a></span><span class="f3"><a href="http://wpa.qq.com/msgrd?v=3&uin=1663145352&site=qq&menu=yes" target="_blank"></a></span></li>
+	</ul>
+	<div class="show_nav_title_2"><span></span></div>
+	<div class="show_nav_dot_gray"></div>
+	<ul class="show_nav_tel">
+		<li><span class="f1"></span><span class="f2">电话：0352-2022856</span></li>
+		<li><span class="f1"></span><span class="f2">电话：0352-5028667</span></li>
+		<li><span class="f1"></span><span class="f2">电话：0352-5117166</span></li>
+	</ul>
+	<div class="show_nav_top"><img src="img/weixinx.jpg" class="h1"/><img src="img/erweimax.png" class="mar h2"/></div>
+</div>
+<div class="show_naw_erweima"><img src="img/weixint.jpg" class="t1"/><img src="img/erweimat.png" class="t2"/></div>
+<script>
+	$('.show_nav_big .show_nav_top img.h1').hover(function(){
+		$('.show_naw_erweima img.t2').stop().hide();
+		$('.show_naw_erweima img.t1').stop().show();
+	},function(){
+		$('.show_naw_erweima img').stop().hide();
+	})
+	$('.show_nav_big .show_nav_top img.h2').hover(function(){
+		$('.show_naw_erweima img.t1').stop().hide();
+		$('.show_naw_erweima img.t2').stop().show();
+	},function(){
+		$('.show_naw_erweima img').stop().hide();
+	})
+	$('.closed_nav').click(function(){
+		$('.show_nav_big').stop().hide();
+		$('.show_naw_erweima img').stop().hide();
+		$('.show_nav_little').stop().show();
+	})
+	$('.suspend a').click(function(){
+		$('.show_nav_little').stop().hide();
+		$('.show_nav_big').stop().show();
+	})
+	$('.fixed_iphon b').hover(function(){
+		$(this).css('background','red url(images/img_tell1.png) no-repeat 22px 22px')	
+	},function(){
+		$(this).css('background','#fff url(images/img_tell.png) no-repeat 22px 22px')	
+	})
+	$('.fixed_wei b').hover(function(){
+		$(this).css('background','#D22B1E url(images/img_wei1.png) no-repeat center')
+	},function(){
+		$(this).css('background','#D22B1E url(images/img_wei1.png) no-repeat center')	
+	})
+	$('.fixed_top b').hover(function(){
+		$(this).css('background','#D22B1E url(images/img_top1.png) no-repeat center')	
+	},function(){
+		$(this).css('background','#D22B1E url(images/img_top1.png) no-repeat center')	
+	})
+	$('.fixed_iphon b').hover(function(){
+		$('.fixed_iphon .tell_num').stop(true,true).slideToggle('fast')
+	})
+	$('.fixed_wei b').hover(function(){
+		$('.fixed_wei div').stop(true,true).slideToggle()
+	})
+	
+	$('.fixed_top b').click(function(){
+		$('body').scrollTop(0);
+	})
+
+</script>
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fea85a692b4ef2afcf7150ab6b5d9bc88' type='text/javascript'%3E%3C/script%3E")) </script>
+<!--<div class="bg_tanchuang"></div>
+<div class="tanchuang">
+	<div class="tanchuang_img"></div>
+	<div class="tanchuang_closed"><img src="./img/close.png"/></div>
+</div>-->
+<script type="text/javascript">
+	// $("#test").css("visibility")=='visible'   判断visibility样式属性
+	// $("#test1").is(":hidden")  判断:hidden选择器
+	if( $(".bg_tanchuang").css("display")=='none' ) {
+		setTimeout(function(){
+			$(".bg_tanchuang").css("display","block");
+			$(".tanchuang").css("display","block");
+		},5000);
+	}
+	$(".tanchuang .tanchuang_closed img").click(function(){
+		$(".bg_tanchuang").css("display","none");
+		$(".tanchuang").css("display","none");
+		setTimeout(function(){
+			$(".bg_tanchuang").css("display","block");
+			$(".tanchuang").css("display","block");
+		},15000);
+	})
+</script>
+</body>
+</html>

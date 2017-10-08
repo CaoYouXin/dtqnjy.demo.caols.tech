@@ -1,0 +1,115 @@
+/**
+ * 所有页面可引用的基础样式
+ * 创建 by zhangyg on 2015/1/15.
+ * 黄:#f76d02  logo绿:#60713d 红:#f40  灰色边框：#dddddd / #E8E8E8  灰色：#4B4B4B 二级灰：7c7c7c 背景灰：#F7F7F7 橙色：#F78600
+ */
+.container {
+    width: 1170px;
+    padding: 0;
+}
+.containerx {
+    width: 950px;
+    padding: 0;
+}
+.full-container {
+    min-width: 1170px;
+}
+
+/*测试*/
+.bor{border: 1px solid red;}
+/*全局*/
+* {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+div{
+    color: #4B4B4B;
+}
+a {
+    color: #4B4B4B;
+    text-decoration: none;
+}
+a:hover, a:active, a:focus{
+    color: #F78600;
+    outline: 0
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td
+{
+    list-style-type: none;
+}
+/*IE下文件框不出现后面的清除内容的叉叉*/
+input[type=text]::-ms-clear,input[type=tel]::-ms-clear,input[type=number]::-ms-clear{display:none}
+.row-clear:before, .row-clear:after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.row-clear:after {
+    clear: both;
+}
+.position-re{
+    position:relative;
+}
+
+.position-ab{
+    position:absolute;
+}
+
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+button, input{
+    outline: none !important;
+    line-height: normal;
+}
+button.btn.mgp-btn{
+    font-size: 18px;
+    background-color: #f76d02;
+    border-color: #f76d02;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+hr{
+    margin-top: 0;
+    color: #d7d7d7;
+}
+.input-lg, .form-group-lg .form-control{
+    font-size: 15px;
+}
+
+th,td{
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.warning{
+    color: #EE7527;
+}
+.warning-star{
+    color: #EE7527;
+    font-size:14px;
+    margin-right: 5px;
+}
+.hidden_block{
+    display: none;
+}
+
+/* bootstrap 样式补充*/
+.btn-lg{
+    box-sizing:border-box;
+    background-color: #F78600;
+    border-color: #F78600;
+}
+.btn-lg:hover{
+    background-color: #f79725;
+    border-color: #f79725;
+}

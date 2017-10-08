@@ -1,0 +1,155 @@
+/**
+ * 类似于首页的页头及页脚部分
+ * 创建 by zhangyg on 2015/1/21.
+ */
+
+/*顶部服务热线*/
+.blue_top {
+    width: 100%;
+    height: 42px;
+    background-color: #FBFBFB;
+    overflow: hidden;
+    position: relative;
+    z-index: 6;
+    -webkit-box-shadow: 0 1px 2px #EAEAEA;
+    -moz-box-shadow: 0 2px 2px #EAEAEA;
+    box-shadow: 0 2px 2px #EAEAEA;
+}
+.blue_top .social_header {
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    float: right;
+	margin-right:27px;
+    clear: both;
+}
+.blue_top .social_header a{
+    font-weight: bold;
+    color:#FE4A27;
+}
+
+/*导航栏*/
+.site-header{
+    background-color: #fff;
+    border-bottom: 1px solid #E8E8E8;
+}
+.site-header .header-nav .nav-main{
+    height: 110px;
+}
+/*--logo图标*/
+.header-nav .logo{
+    margin-top: 23px;
+}
+.site-header .header-nav .nav-main ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+}
+.site-header .header-nav .nav-main-item {
+    float: left;
+}
+.site-header .header-nav .nav-main-item a {
+    display: block;
+    height: 110px;
+    line-height: 110px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.site-header .header-nav .nav-main-item a:hover {
+    color: #F78600;
+    border-bottom: 4px solid #F78600;
+}
+.site-header .header-nav .nav-main-item a .text {
+    display: block;
+    min-width: 128px;
+}
+/*导航栏当前页面时相应栏显示背景色*/
+.site-header .header-nav .nav-main-item.curr-nav a{
+    color: #F78600;
+    border-bottom: 4px solid #F78600;
+}
+
+/* 面包屑 */
+.breadcrumb-container{
+    height: 45px;
+    line-height: 45px;
+}
+.breadcrumb{
+    margin: 0;
+    padding: 0 5px;
+    background-color: white;
+}
+
+/* 页面footer */
+.site-footer {
+    margin-top: 50px;
+    color: #333;
+}
+.site-footer .footer-service {
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+}
+.site-footer .footer-links {
+    padding: 50px 0;
+}
+.site-footer .col-links {
+    float: left;
+    _display: inline;
+    width: 150px;
+    margin: 0 0 0 80px;
+}
+.site-footer .col-links dt{
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.site-footer .col-links dd{
+    margin-left: 5px;
+}
+
+.site-footer .col-links dd a{
+    color: #7c7c7c;
+    font-size: 14px;
+    line-height: 24px;
+}
+.site-footer .col-links dd a:hover {
+    color: #F78600;
+}
+.site-footer .col-links-first {
+    margin-left: 0;
+}
+.site-footer .col-contact {
+    float: right;
+    width: 250px;
+    text-align: center;
+}
+.site-footer .col-contact img{
+    margin-top: 30px;
+}
+
+/*版权信息*/
+.site-footer .footer-info {
+    position: relative;
+    padding: 15px 0 15px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid #E8E8E8;
+}
+.site-footer .info-text {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+

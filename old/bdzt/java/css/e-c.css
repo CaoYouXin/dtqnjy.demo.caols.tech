@@ -1,0 +1,108 @@
+body{overflow-x: hidden;}
+.index_top {width:100%;}
+.index_top_1 {width:100%;}
+.index_top_1_1 {width:1000px; height:87px; margin:0px auto;}
+.index_top_1_1_zuo {width:195px; height:87px; float:left;}
+.index_top_1_1_zhong {width:280px; height:62px; padding-top:25px; padding-left:330px; float:left;}
+.index_top_1_1_you {width:175px; height:62px; padding-top:25px; float:left;}
+.index_top_2 {width:100%; height:51px; background:#083FA4;}
+.index_top_2_1 {width:1000px; height:51px; line-height:51px; margin:0px auto;}
+.index_top_2_1 ul {padding:0px; margin:0px; list-style:none;}
+.index_top_2_1 li {float:left; text-align:center;}
+.index_top_2_1 li a {width:110px; height:51px; display:block; text-decoration:none; color:#FFF; font-size:14px; font-weight:bold;}
+.index_top_2_1 li a.a1 {background:url(images/bg1.jpg) repeat-x;}
+html{font-family: "微软雅黑";}
+*{margin: 0;padding: 0;list-style: none;}
+a{text-decoration:none; color: dimgray;}
+a:hover{text-decoration: underline;}
+.center{margin: auto;width: 1180px;}
+.e-header{width: 100%;height: 85px;float: left;}
+.e-header-center{width: 1180px;height:45px;margin: auto;}
+.heade_img{width: 204px;height: 65px;}
+.e-left{float: left;}
+.e-left img{float: left;margin-top: 10px;}
+.e-right{float: right;height: 45px;line-height: 45px;}
+.e-right li{float: left;margin-left: 15px;font-size: 14px;margin-top: 20px;}
+.father{width: 100%;text-align: center;float: left;}
+
+.partTwo{width: 100%;height: 630px;background:#f6f6f6;float: left;background:url(../img/bjpt.png)no-repeat center;}
+.pTwoRight{float:right;text-align: center;height: 360px;width: 610px;margin-top: 150px;}
+.pTwoRight h1{font-size:78px;}
+.pTwoRight p{font-size: 24px;line-height: 36px;color: #333333;}
+.partTwoleft{float: left;}
+.banner{width:535px;height: 493px;margin-top:65px;margin-left: 35px;}
+.pTwo-p2{margin-top: 40px;}
+
+.partA{width: 100%;height:651px;background:#f6fdcc;float: left;}
+.xmt_head{margin-top: 50px;}
+.xmt{margin-top: 50px;}
+
+.partThree{height: 695px;width: 100%;float: left;text-align: center;background: #fdfff8;}
+.ptt{width: 780px;height: 144px;margin-top: 55px;}
+.ptm{width: 900px;height: 360px;margin-top: 60px;}
+.ptb{margin-top: 30px;}
+
+
+.partFour{width: 100%;height: 1530px;float: left;text-align: center;background: #f6f6f6;}
+.pfu{margin-top: 70px;}
+.description{font-size: 14px;width: 550px;height: 70px;margin: auto;color: #666;text-align: justify;}
+.pfm{margin-top: 15px;}
+.partFourb{width: 1102px;height: 678px;}
+.pFleft{margin-top: 30px;width: 552px;height: 513px;}
+.pFright{margin-top: 30px;width: 291px;height: 513px;}
+
+.partFive{width: 100%;height: 560px;float: left;background: #fefedd;}
+
+
+.partSix{float: left;height:720px;width: 100%}
+.union{float: left;}
+.union dd{float: left;margin-left:30px;margin-top: 20px;}
+.m-T{margin-top: 40px;}
+.pF-center{width: 1180px;margin: auto;}
+.cstphz{margin-top: 50px;}
+.cstphz2{margin-left:30px;}
+.cstphz3{margin-top: 40px;}
+.cstphzleft{margin-top: 30px;margin-right: 90px;}
+.partSix a{display: inline-block; height: 35px;border: none;outline: none;color: white;line-height: 35px;font-size: 16px;font-weight: bold;border-radius: 15px;}
+.me{width: 166px;background: #e94d19;margin-top: 30px;}
+.me2{width: 312px;background: #43a072;margin-left: 30px;}
+
+/*基础课程高级课程样式*/
+.con9{ width:820px; height:720px; margin:0 auto;margin-top: 50px;}
+.con9_l{padding:20px 0 0px 20px; height:686px; border:1px solid #000; float:left; position:relative;}
+.con9_r{ width:266px; padding:20px 0 0px 20px; height:710px; border:1px solid #000; float:right; position:relative;}
+.con9 li{ width:246px; height:208px; float:left; margin:0 2.4% 2.4% 0;}
+.con9 li div{ width:246px; height:154px; overflow:hidden;}
+.con9 li img{ display:block; width:246px; height:154px; -moz-transition: all 0.5s ease 0s; -o-transition: all 0.5s ease 0s; -ms-transition: all 0.5s ease 0s; -webkit-transition: all 0.5s ease 0s; transition: all 0.5s ease 0s;}
+.con9 li:hover img{ -webkit-transform: scale(1.1); -moz-transform: scale(1.1); -ms-transform: scale(1.1); -o-transform: scale(1.1); transform: scale(1.1);}
+.con9 li p{ width:246px; height:52px; text-align:center; line-height:52px; background:#000; color:#fff; font-size:20px; font-weight:bold; margin:0;}
+.con9 h3{ width:278px; height:42px; text-align:center; line-height:38px; background:#ab1c1d; color:#fff; font-size:24px; font-weight:bold; margin:0; position:absolute; left:135px; bottom:-21px;}
+
+.index_mid_3 {width:100%; height:855px; background:#FFFFFF;float: left;}
+.index_mid_3_1 {width:1000px; padding-top:55px; margin:0px auto;}
+.index_mid_3_1_er {width:623px; height:55px; padding-top:25px; margin:0px auto; text-align:center; color:#000; font-size:36px; font-weight:bold; border-bottom:1px solid #000;}
+.index_mid_3_1_san {width:550px; height:auto; line-height:20px; color:#666;  margin:0px auto; padding-top:10px; font-size:13px;}
+.index_mid_3_1_si {width:1000px; height:538px; padding-top:15px;}
+.zhuanjia{margin-top: 25px;}
+
+.index_mid_5 {width:100%; height:1000px; background:#f1f3fe;float: left;}
+.index_mid_5_1 {width:1000px; padding-top:55px; margin:0px auto;}
+.index_mid_5_1_yi {width:285px; height:33px; line-height:33px; margin:0px auto; background:#E80453; text-align:center; color:#FFF; font-weight:bold;}
+.index_mid_5_1_san {width:550px; height:auto; line-height:20px; color:#666;  margin:0px auto; padding-top:10px; font-size:13px; text-align:center;}
+.index_mid_5_1_si {width:950px; padding-top:15px; margin:0px auto;}
+.index_mid_5_1_si ul {padding:0px; margin-top: 35px; list-style:none;}
+.index_mid_5_1_si ul li {float:left; width:300px; height:230px; text-align:center; line-height:20px;}
+
+.banner7 {height:510px; overflow:hidden;width: 1000px;margin: auto;margin-top: 80px;}
+.banner7 dl{width:1000px; overflow:hidden;}
+.banner7 dl dd{float:left;margin:0px 10px;}
+.banner7 dl dt{width:200px;float:left;margin:0px 12px; text-align:left;border:dotted 1px #a9aaaa;padding:10px;margin-top:20px;color:#000; line-height:24px;background: white;}
+
+
+.index_bot {width:100%;float: left;}
+.index_bot_1 {width:100%; height:210px; background:#333;}
+.index_bot_1_1 {width:1000px; height:210px; margin:0px auto;}
+.index_bot_1_1_zuo {width:400px; line-height:30px; padding-top:30px; padding-left:30px; color:#999; float:left;}
+.index_bot_1_1_you {width:151px; text-align:center; color:#999; padding-top:20px; padding-right:100px; line-height:25px; float:right;}
+.index_bot_2 {width:100%; height:35px; background:#3F3F3F;}
+.index_bot_2_1 {width:1000px; height:35px; line-height:35px; margin:0px auto; text-align:center; color:#999;}

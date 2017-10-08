@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* 
+    CSS Document
+    Author:武汉荣昌仁和会计咨询服务有限公司  http://www.whrhkj.com/ 
+*/
+.w1002{ width: 1002px; margin: 0 auto;}
+body{ font-family: "Microsoft Yahei"; font-size: 14px; background: #FFFFFF;}
+.mb30{ margin-bottom: 30px;}
+.mb60{ margin-bottom: 60px;}
+.ztbanner{ background: url(../images/ztbanner_bg.jpg) no-repeat center top; height: 607px;}
+.zthonor_text{ background: url(../images/black_bg.jpg) repeat-x left top; height: 104px;overflow: hidden;}
+
+.zthonor_content{ background: #EEF1F3; padding-top: 30px; padding-bottom: 30px;}
+.zth_title1{ font-size: 26px; color: #333333;line-height: 80px;}
+.zth_title1 span{ color: #333;}
+.zth_title2{ font-size: 30px;line-height: 50px;color: #FC6935;}
+.zth_list{ }
+.zth_list ul{ margin: 0 -8px 0 0;}
+.zth_list ul li{ width: 194px;margin-right: 8px;float: left;}
+.h_title{ line-height: 22px;text-align: center;}
+.h_title b{ color: #FC6935;}
+.zt_title3{font-size: 30px;font-weight:500; margin-top:50px;}
+.zt_title3 span{ color: #84191B;}
+.circle_list{ }
+.circle_list ul li{ float: left;width: 200px;}
+.circle_list ul li.li_plus{ line-height: 200px;font-size: 40px;width: 65px;text-align: center;}
+
+/*ztcontent2*/
+.ztcontent2{background: url(../images/ztcontent2_bg.jpg) repeat left top; padding: 30px 0px;}
+.ztc2_title1{ font-size: 40px;font-weight: 600; margin-top:40px;}
+.ztc2_pic{ margin-top: 60px; }
+.ztc2_button{ width: 470px;margin: 30px auto;color: #FFFFFF;height: 30px;line-height: 30px; }
+.ztc2_button a{ color:#FFF}
+.ztc2_b1{ width: 120px; background: #BF3C09;}
+.ztc2_b1 a{color: #FFFFFF;}
+.ztc2_b2{ width: 350px; background: #282828;}
+
+
+.content3{ background: #EEF1F3; padding-top: 30px;}
+.ztc3_info{ background: url(../images/ztc3_pic.jpg) no-repeat left bottom;height: 750px;}
+.ztc3_title1{ font-size: 35px;font-weight: bold; margin-top:30px; }
+.ztc3_title11{ font-size: 20px; line-height: 32px; }
+.ztc3_title2{ width: 620px;line-height: 30px;font-size: 16px;font-weight: bold;}
+.ztc3_title3{ font-size: 30px;color: #333333;font-weight: bold;}
+.ztc3_pic1{ background: url(../images/ztc3_pic1.jpg) no-repeat center top; height: 178px;}
+.ztc3_title4{ font-size: 30px;font-weight: bold;line-height: 50px;}
+/*ztc3_form1*/
+.ztc3_form1{ background: url(../images/ztbm_form_bg.jpg) no-repeat left top; height: 230px;}
+.form_show{ width: 300px;height: 200px;background: #FFFFFF; margin-right: 20px; margin-top: 20px;}
+.form_title{ height: 40px;line-height: 40px;color: #FFFFFF; background: #00A150;font-size: 18px;}
+.form_content{ line-height: 30px; padding: 10px;}
+.form_content dl dt{ width: 100px;float: left;text-align: right;}
+.zt_input_text{ border: 1px solid #CCCCCC; height: 20px;line-height: 20px;width: 150px;}
+.zt_submit_button{ width: 150px;height: 25px;line-height: 25px;color: #FFFFFF; border: none; background: #00A150;}
+/*content4*/
+.content4{ background: #DC2F33; color: #FFFFFF; }
+.ztc4_text{ padding-top: 60px;}
+.ztc4_title1{ font-size: 22px;line-height: 40px;}
+.ztc4_title1 b{font-size: 40px; }
+.ztc4_title2{ font-size: 30px;line-height: 40px;}
+.ztc4_title3{ font-size: 40px;}
+.ztc4_title4{ width: 320px;height: 30px;background: #282828; color: #FFFFFF;text-align: center; line-height: 30px;}
+.ztc4_title4:hover{ background:#ccc;}
+.ztc4_title4 a{ color: #FFFFFF;}
+
+/*content5*/
+.content5{ background: #EEF2F5; padding: 30px 0;}
+.ztc5_title2{ font-size: 30px;line-height: 50px;}
+.ztc5_title3{ font-size: 30px; padding-left: 250px;line-height: 60px;}
+.ztc5_title3 span{ font-weight: bold;font-size: 40px; }
+.ztc5_title4{ padding-left: 400px;font-size: 30px;line-height: 40px;}
+.ztc5_info2{ background: url(../images/ztc5_pic4.jpg) no-repeat center top; height: 485px;}
+.ztc5_title5,.ztc5_title6{ font-size: 20px;height: 30px;line-height: 30px;font-weight: bold;}
+.ztc5_info3{ }
+.ztc5_info3 ul{ margin: 0 -20px 0 0;}
+.ztc5_info3 ul li{ border: 1px solid #E1E2E3; width: 148px;height: 68px;float: left; margin-right: 20px; margin-bottom: 20px;}
+/*content6*/
+.content6{ background: url(../images/black_bg.jpg) repeat-x left top; height: 104px;color: #FFFFFF; font-size: 40px;color: #FFFFFF;font-weight: bold; line-height: 104px;}
+/*content7*/
+.content7{ background: #EEF1F3; padding: 30px 0px;}
+/*four_services*/
+.four_services{ }
+.ztc7_title1{ font-size: 30px;height: 50px;line-height: 50px;}
+.ztservice_list{ }
+.ztservice_list ul { margin: 0 -2px 0 0;}
+.ztservice_list ul li{ width: 319px;float: left; margin-right: 22px;background: #FFFFFF;}
+.ztservice_list ul li.po1{margin-right:0px;}
+.ztc7_title2{ font-size: 22px;height: 40px;line-height: 40px;} 
+.ztc7_title3{ padding: 10px; line-height: 22px;}
+.ztc7_title4{ background: #0F5AAB;height: 35px;line-height: 35px;color: #FFFFFF;}
+.ztc7_title4 a{ color: #FFFFFF;}
+
+
+
+
+
+.remark_show{ background: #F3F4F6; padding: 30px 0px; }
+.remak_list{ background: #246DBA; }
+.remak_list_show{ padding: 20px; height: 360px; overflow: hidden; }
+.signal_remark{ margin-bottom: 20px;}
+.remark_pic{ width: 70px; margin-right: 30px; border: 2px solid #1D5A9A;} 
+.remak_content_show{ width: 830px;}
+.remak_content_show{ background: #1E5A99; border-radius: 10px 10px; -moz-border-radius:10px 10px; -webkit-border-radius:10px 10px; padding: 10px; height: 51px; box-shadow: 2px 2px 2px;-webkit-box-shadow: 3px 3px 3px;-moz-box-shadow: 3px 3px 3px;}
+.r_c_content{ }
+.r_c_title{ color: #2A83DF; border-bottom: 1px dashed #387BBE;height: 25px;line-height: 25px; }
+.r_c_text{ color: #fff;height: 25px; line-height: 25px;}
+
+.six_advantage{ }
+.advantage_list{ }
+.adv_pic{ width: 439px; text-align: center;}
+.advantage_text{ width: 223px; float: left; height: 211px; padding: 13px;}
+.a_t_pic{ width: 90px; height: 90px;}
+/*advantage_text*/
+.advantage_text{  font-family: "Microsoft Yahei";}
+.a_t_text1{ color: #0B63C2; height: 35px; line-height: 35px; font-size: 22px; font-weight: bold;}
+.a_t_text2{ color: #FF5A00; line-height: 22px; font-size: 16px;}
+.a_t_intro{ color: #6D6D6D; line-height: 20px; font-size: 14px;}
+
+.ico1{ background: url("../images/ico1.png") no-repeat left;}
+.ico1_number_pic1{ background-position: 0px -139px;}
+.ico1_number_pic2{ background-position: -90px -139px;}
+.ico1_number_pic3{ background-position: -180px -139px;}
+.ico1_number_pic4{ background-position: -270px -139px;}
+.ico1_number_pic5{ background-position: -360px -139px;}
+.ico1_number_pic6{ background-position: -450px -139px;}
