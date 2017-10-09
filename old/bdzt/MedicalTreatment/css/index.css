@@ -9,11 +9,16 @@
   font-style: normal;
 }
 
+.font-bold {
+  font-family: "Microsoft YaHei";
+}
+
 *, *:before, *:after {
   margin: 0;
   padding: 0;
   border: none;
   box-sizing: border-box;
+  font-family: "Microsoft YaHei", "Monaco", sans-serif;
 }
 
 .v-mid-box {
@@ -31,10 +36,21 @@
   height: 100%;
 }
 
+.full-width-wrapper {
+  width: 100%;
+  position: relative;
+}
+
 .fixed-width-wrapper {
   width: 1138px;
   margin: 0 auto;
   overflow: hidden;
+}
+
+.fixed-width-wrapper2 {
+  width: 1138px;
+  left: 50%;
+  margin-left: -569px;
 }
 
 .header {
@@ -56,7 +72,6 @@
 }
 
 .nav > a {
-  font-family: "mac_ping_hei";
   text-decoration: none;
   font-size: 20px;
   padding: 0 1em;
@@ -66,4 +81,295 @@
 
 .nav > a:hover {
   background-color: #eeeeee;
+}
+
+.banner > .bg,
+.bg > img {
+  width: 100%;
+}
+
+.contact > .content,
+.banner > .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.left-banner {
+  float: left;
+  height: 100%;
+}
+
+.left-banner > .content {
+  text-align: left;
+}
+
+.left-banner > .content > * {
+  overflow: hidden;
+  color: white;
+}
+
+.left-banner > .content > p.provide-text {
+  font-size: 50px;
+}
+
+.left-banner > .content > p.service-name {
+  font-size: 20px;
+}
+
+.left-banner > .content > a.button {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #3a9ecb;
+  background-image: linear-gradient(to right, #3ba0cc, #3a9dca);
+}
+
+.team-title, .team-text,
+.about-title, .about-text {
+  text-align: center;
+}
+
+.team-title, .about-title {
+  color: #42b3e5;
+  font-size: 60px;
+  margin-top: 50px;
+}
+
+.team-text, .about-text {
+  color: #737373;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.about {
+  margin-top: 50px;
+}
+
+.about > * {
+  float: left;
+  width: 30%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.about > .middle {
+  width: 40%;
+}
+
+.about > * > img {
+  width: 342px;
+  height: 300px;
+}
+
+.about > * > .text {
+  position: relative;
+  display: inline-block;
+  width: 342px;
+  height: 200px;
+  color: white;
+  background-color: #2a2a2a;
+  background-image: linear-gradient(to bottom, #282828 0%, #2e2e2e 30%, #282828 100%);
+}
+
+.about > * > .text:hover {
+  background-color: #3a9dca;
+  background-image: linear-gradient(to right, #3a9dca, #3a9ecb);
+}
+
+.team > * > .text > h3,
+.about > * > .text > h3 {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.team > * > .text > p,
+.about > * > .text > p {
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+.about > * > .text > .char {
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  margin-left: -40px;
+  width: 80px;
+  height: 80px;
+  color: #2a2a2a;
+  line-height: 80px;
+  text-align: center;
+  font-size: 50px;
+  background-image: url('../images/about.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.about > * > .text:hover > .char {
+  color: #3a9dca;
+}
+
+.service {
+  margin-top: 60px;
+}
+
+.contact > .bg,
+.service > .bg {
+  width: 100%;
+}
+
+.contact > .bg > img,
+.service > .bg > img {
+  height: 640px;
+}
+
+.service > .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.service > .content > h1 {
+  margin-top: 50px;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+.service > .content > p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.service > .content > .courses {
+  width: 100%;
+  margin-top: 60px;
+}
+
+.service > .content > .courses > * {
+  width: 305px;
+  float: left;
+  text-align: center;
+}
+
+.service > .content > .courses > .first {
+  width: 264px;
+  text-align: left;
+}
+
+.service > .content > .courses > .last {
+  width: 264px;
+  text-align: right;
+}
+
+.service > .content > .courses > * > * {
+  width: 227px;
+}
+
+.service > .content > .courses > * > img {
+  height: 227px;
+}
+
+.service > .content > .courses > * > .title {
+  display: inline-block;
+  line-height: 90px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.team {
+  margin-top: 60px;
+}
+
+.team > * {
+  width: 20%;
+  float: left;
+  font-size: 0;
+  text-align: center;
+}
+
+.team > * > * {
+  width: 227px;
+  height: 227px;
+}
+
+.team > * > .text {
+  display: inline-block;
+  position: relative;
+  color: white;
+  background-color: #282828;
+  background-image: linear-gradient(to bottom, #282828 0%, #2e2e2e 30%, #282828 100%);
+}
+
+.team > * > .text:hover {
+  background-color: #3a9dca;
+  background-image: linear-gradient(to bottom, #3a9dca 0%, #3a9ecb 30%, #3a9dca 100%);
+}
+
+.team > * > .text.bottom:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid 20px transparent;
+  border-top-color: #282828;
+  top: 100%;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.team > * > .text.bottom:hover:after {
+  border-top-color: #3a9dca;
+}
+
+.team > * > .text.top:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: solid 20px transparent;
+  border-bottom-color: #282828;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.team > * > .text.top:hover:after {
+  border-bottom-color: #3a9dca;
+}
+
+.contact {
+  margin-top: 60px;
+}
+
+.contact > .mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contact > .content > * {
+  color: white;
+  background-color: #3a9dca;
+  padding: 100px 200px;
+}
+
+.contact > .content > * > .button {
+  color: white;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: #282828;
+  background-image: linear-gradient(to right, #282828 0%, #2e2e2e 50%, #282828 100%);
+}
+
+.company-text {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
 }
