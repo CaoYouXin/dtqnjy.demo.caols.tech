@@ -1,0 +1,101 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+code {
+  font-family: 'Operator Mono', Consolas, Monaco, "Microsoft YaHei", "PingFang SC", monospace;
+}
+
+.mid-box {
+  text-align: center;
+}
+
+.mid-box > *, .mid-box:after {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mid-box:after {
+  content: '';
+  width: 0;
+  height: 100%;
+}
+
+.div-ib {
+  display: inline-block;
+}
+
+.row-one, .row-two {
+  width: 100%;
+}
+
+.row-one {
+  min-width: 800px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: table;
+}
+
+*[class^=col-] {
+  display: table-cell;
+}
+
+*[class^=col-].v-mid {
+  vertical-align: middle;
+}
+
+*[class^=col-].h-right {
+  text-align: right;
+}
+
+*[class^=col-].h-center {
+  text-align: center;
+}
+
+*[class^=col-].h-left {
+  text-align: left;
+}
+
+.col-4 {
+  width: 33.3333%;
+}
+
+.col-8 {
+  width: 66.6666%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  height: 30px;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.nav > li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 60px;
+  padding: 0 20px;
+}
+
+.nav > li > a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav > li > a:hover {
+  color: royalblue;
+}
