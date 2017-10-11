@@ -194,7 +194,7 @@ code {
 }
 
 *[class*=service-] {
-  padding-left: 20px;
+  padding: 0 20px;
 }
 
 .service-1 {
@@ -399,4 +399,30 @@ code {
 
 .contact-4 {
   height: 50px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .no-mobile {
+    display: none !important;
+  }
+  .row-one {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .mobile {
+    display: block;
+  }
+  .row.mobile {
+    display: table;
+  }
+  .bg {
+    background-attachment: initial !important;
+  }
+  .servicebg-wrapper {
+    height: 300px;
+  }
 }
