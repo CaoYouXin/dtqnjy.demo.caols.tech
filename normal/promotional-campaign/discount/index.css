@@ -1,0 +1,245 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+}
+
+code {
+  font-family: 'Operator Mono', Consolas, Monaco, "Microsoft YaHei", "PingFang SC", monospace;
+}
+
+.mid-box {
+  text-align: center;
+}
+
+.mid-box > *, .mid-box:after {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mid-box:after {
+  content: '';
+  width: 0;
+  height: 100%;
+}
+
+.div-ib {
+  display: inline-block;
+}
+
+.div-pr {
+  position: relative;
+}
+
+.div-oh {
+  overflow: hidden;
+}
+
+.div-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.row-one, .row-two {
+  width: 100%;
+}
+
+.row-one {
+  min-width: 800px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  position: relative;
+  display: table;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+*[class^=col-] {
+  display: table-cell;
+}
+
+*[class^=col-].v-mid {
+  vertical-align: middle;
+}
+
+*[class^=col-].h-right {
+  text-align: right;
+}
+
+*[class^=col-].h-center {
+  text-align: center;
+}
+
+*[class^=col-].h-left {
+  text-align: left;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.3333%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-8 {
+  width: 66.6666%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .no-mobile {
+    display: none !important;
+  }
+  .row-one {
+    max-width: 100%;
+    min-width: 100%;
+  }
+  .mobile {
+    display: block;
+  }
+  .row.mobile {
+    display: table;
+  }
+  .bg {
+    background-attachment: initial !important;
+  }
+}
+
+
+/* above is commons */
+
+.top-banner {
+  background-color: #58e9ff;
+}
+
+.logo {
+  margin: 20px 0;
+  height: 50px;
+}
+
+.banner {
+  background-color: #58e9ff;
+}
+
+.banner-blank {
+  height: 550px;
+  line-height: 550px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.banner-text {
+  height: 50px;
+  line-height: 50px;
+  color: wheat;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px rosybrown;
+}
+
+.navigator {
+  background-image: url("./images/navigation.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.navigator-blank-1 {
+  height: 100px;
+}
+
+.navigator-blank-2 {
+  height: 20px;
+}
+
+.navigator-text-1 {
+  height: 40px;
+  line-height: 40px;
+}
+
+.navigator-text-2 {
+  height: 30px;
+  line-height: 30px;
+}
+
+.navigator-text-1, .navigator-text-2 {
+  font-weight: bold;
+  color: #391f03;
+  text-shadow: 1px 1px 3px white;
+}
+
+.course-wrapper {
+  padding: 16px;
+}
+
+.course {
+  width: 100%;
+  padding: 20px;
+  border: solid 1px #ccc;
+  cursor: default;
+  user-select: none;
+}
+
+.course img {
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.course:hover {
+  box-shadow: 0 0 20px #999;
+}
+
+.course:hover img {
+  transform: scale(1.1);
+  transform-origin: 50% 50% 0;
+}
+
+.course:hover .div-text {
+  color: royalblue;
+}
+
+.dollar, .amount {
+  color: indianred;
+}
+
+.dollar {
+  font-size: 10px;
+}
+
+.amount {
+  font-size: 14px;
+}
+
+.pri-amount {
+  margin-left: 10px;
+  font-size: 10px;
+  color: gray;
+  text-decoration: line-through;
+}
