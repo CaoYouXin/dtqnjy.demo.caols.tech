@@ -170,9 +170,12 @@ code {
 }
 
 .navigator {
-  background-image: url("./images/navigation.png");
+  background-image: url("http://localhost:5001/images/navigation.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-position: center;
+  -ms-behavior: url('backgroundsize.min.htc');
+  behavior: url('backgroundsize.min.htc');
 }
 
 .navigator-blank-1 {
