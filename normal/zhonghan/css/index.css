@@ -395,20 +395,33 @@ code {
   color: white;
 }
 
-.contact-1, .contact-7 {
+.contact-1, .contact-12 {
   height: 100px;
 }
 
-.contact-2, .contact-5 {
+.contact-2, .contact-5, .contact-8 {
   font-size: 20px;
 }
 
-.contact-3, .contact-6 {
+.contact-3, .contact-6, .contact-9 {
   font-size: 14px;
 }
 
-.contact-4 {
-  height: 50px;
+.contact-4, .contact-7, .contact-10 {
+  height: 30px;
+}
+
+.contact-9 > a {
+  color: white;
+}
+
+.contact-9 > a:hover {
+  color: royalblue;
+}
+
+.contact-11 > img {
+  width: 136px;
+  height: 136px;
 }
 
 .mobile {
