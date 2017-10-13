@@ -165,6 +165,10 @@ code {
   text-shadow: 1px 1px 2px rosybrown;
 }
 
+.body {
+  background-color: #e7e7e7;
+}
+
 .navigator {
   background-image: url("./images/navigation.png");
   background-size: 100% 100%;
@@ -205,11 +209,17 @@ code {
   border: solid 1px #ccc;
   cursor: default;
   user-select: none;
+  background-color: #fff;
 }
 
 .course img {
   width: 100%;
   transition: transform 0.3s;
+}
+
+.course .course-name {
+  font-size: 14px;
+  color: #333;
 }
 
 .course:hover {
@@ -221,8 +231,8 @@ code {
   transform-origin: 50% 50% 0;
 }
 
-.course:hover .div-text {
-  color: royalblue;
+.course:hover .course-name {
+  color: #000;
 }
 
 .dollar, .amount {
@@ -242,4 +252,21 @@ code {
   font-size: 10px;
   color: gray;
   text-decoration: line-through;
+}
+
+.course a {
+  text-align: center;
+  color: whitesmoke;
+  text-decoration: none;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  background-color: indianred;
+  border: solid 1px red;
+  display: inline-block;
+}
+
+.course a:hover {
+  background-color: rgb(245, 99, 99);
 }
