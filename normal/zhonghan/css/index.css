@@ -149,6 +149,11 @@ code {
   background-size: cover;
 }
 
+.banner.mask {
+  background-image: url('../images/mask-1.png');
+  background-repeat: repeat;
+}
+
 *[class*=banner-] {
   font-weight: bold;
   color: white;
@@ -308,6 +313,11 @@ code {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.aim.mask {
+  background-image: url('../images/mask-2.png');
+  background-repeat: repeat;
 }
 
 .aim-1 {
