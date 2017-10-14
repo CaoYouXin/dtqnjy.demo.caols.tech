@@ -106,7 +106,7 @@ code {
 
 .logo {
   display: inline-block;
-  height: 30px;
+  height: 40px;
 }
 
 .logo > img {
@@ -147,6 +147,11 @@ code {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.banner.mask {
+  background-image: url('../images/mask-1.png');
+  background-repeat: repeat;
 }
 
 *[class*=banner-] {
@@ -310,6 +315,11 @@ code {
   background-size: cover;
 }
 
+.aim.mask {
+  background-image: url('../images/mask-2.png');
+  background-repeat: repeat;
+}
+
 .aim-1 {
   height: 150px;
 }
@@ -360,10 +370,12 @@ code {
 
 .partener {
   padding: 20px 30px;
+  height: 156px;
 }
 
 .partener > img {
   width: 100%;
+  max-height: 156px;
 }
 
 .contact.mask {
@@ -385,20 +397,33 @@ code {
   color: white;
 }
 
-.contact-1, .contact-7 {
+.contact-1, .contact-12 {
   height: 100px;
 }
 
-.contact-2, .contact-5 {
+.contact-2, .contact-5, .contact-8 {
   font-size: 20px;
 }
 
-.contact-3, .contact-6 {
+.contact-3, .contact-6, .contact-9 {
   font-size: 14px;
 }
 
-.contact-4 {
-  height: 50px;
+.contact-4, .contact-7, .contact-10 {
+  height: 30px;
+}
+
+.contact-9 > a {
+  color: white;
+}
+
+.contact-9 > a:hover {
+  color: royalblue;
+}
+
+.contact-11 > img {
+  width: 136px;
+  height: 136px;
 }
 
 .mobile {
