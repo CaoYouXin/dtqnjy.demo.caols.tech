@@ -1,10 +1,7 @@
 @font-face {
   font-family: "mac_ping_hei";
   src: url('../font/Ping_Hei_Bold.eot');
-  src: url('../font/Ping_Hei_Bold.eot') format('embedded-opentype'), 
-    url('../font/Ping_Hei_Bold.woff') format('woff'),
-    url('../font/Ping_Hei_Bold.ttf') format('truetype'),
-    url('../font/Ping_Hei_Bold.svg') format('svg');
+  src: url('../font/Ping_Hei_Bold.eot') format('embedded-opentype'), url('../font/Ping_Hei_Bold.woff') format('woff'), url('../font/Ping_Hei_Bold.ttf') format('truetype'), url('../font/Ping_Hei_Bold.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -103,13 +100,11 @@
   margin-top: 120px;
 }
 
-.banner > .bg,
-.bg > img {
+.banner > .bg, .bg > img {
   width: 100%;
 }
 
-.contact > .content,
-.banner > .content {
+.contact > .content, .banner > .content {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -144,8 +139,7 @@
   background-image: linear-gradient(to right, #3ba0cc, #3a9dca);
 }
 
-.team-title, .team-text,
-.about-title, .about-text {
+.team-title, .team-text, .about-title, .about-text {
   text-align: center;
 }
 
@@ -196,13 +190,11 @@
   background-image: linear-gradient(to right, #3a9dca, #3a9ecb);
 }
 
-.team > * > .text > h3,
 .about > * > .text > h3 {
   margin-top: 50px;
   font-size: 30px;
 }
 
-.team > * > .text > p,
 .about > * > .text > p {
   margin-top: 30px;
   font-size: 18px;
@@ -233,13 +225,11 @@
   margin-top: 60px;
 }
 
-.contact > .bg,
-.service > .bg {
+.contact > .bg, .service > .bg {
   width: 100%;
 }
 
-.contact > .bg > img,
-.service > .bg > img {
+.contact > .bg > img, .service > .bg > img {
   height: 640px;
 }
 
@@ -269,27 +259,27 @@
 }
 
 .service > .content > .courses > * {
-  width: 305px;
+  width: 236px;
   float: left;
   text-align: center;
 }
 
 .service > .content > .courses > .first {
-  width: 264px;
+  width: 215px;
   text-align: left;
 }
 
 .service > .content > .courses > .last {
-  width: 264px;
+  width: 215px;
   text-align: right;
 }
 
 .service > .content > .courses > * > * {
-  width: 227px;
+  width: 194px;
 }
 
 .service > .content > .courses > * > img {
-  height: 227px;
+  height: 194px;
 }
 
 .service > .content > .courses > * > .title {
@@ -322,6 +312,16 @@
   color: white;
   background-color: #282828;
   background-image: linear-gradient(to bottom, #282828 0%, #2e2e2e 30%, #282828 100%);
+}
+
+.team > * > .text > h3 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.team > * > .text > p {
+  margin-top: 10px;
+  font-size: 18px;
 }
 
 .team > * > .text:hover {
