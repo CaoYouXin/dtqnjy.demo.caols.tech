@@ -198,6 +198,7 @@
 .about > * > .text > p {
   margin-top: 30px;
   font-size: 18px;
+  padding: 0 5px;
 }
 
 .about > * > .text > .char {
