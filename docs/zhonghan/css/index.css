@@ -375,7 +375,7 @@ code {
 
 .partener > img {
   width: 100%;
-  max-height: 156px;
+  /* max-height: 156px; */
 }
 
 .contact.mask {
